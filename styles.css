@@ -1,0 +1,1701 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#wrapper
+{
+    height: 100vh;
+    overflow-y:auto;
+    overflow-x:hidden;
+    perspective: 10px;
+    position: relative;
+}
+
+
+.universe
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.container1
+{
+    position: relative;
+    height: 100%;
+    display: flex;
+    transform-style: preserve-3d;
+    z-index: -1;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container2
+{
+    position: relative;
+    height: 100%;
+    display: flex;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: -1;
+}
+
+.container3
+{
+    position: relative;
+    height: 100%;
+    display: flex;
+    transform-style: preserve-3d;
+    z-index: -1;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container4
+{
+    position: relative;
+    height: 100%;
+    display: flex;
+    transform-style: preserve-3d;
+    z-index: -1;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container5
+{
+    position: relative;
+    height: 100%;
+    display: flex;
+    transform-style: preserve-3d;
+    z-index: -1;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container6
+{
+    position: relative;
+    height: 100%;
+    display: flex;
+    transform-style: preserve-3d;
+    z-index: -1;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container7
+{
+    position: relative;
+    height: 100%;
+    display: flex;
+    transform-style: preserve-3d;
+    z-index: -1;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container8
+{
+    position: relative;
+    height: 100%;
+    display: flex;
+    transform-style: preserve-3d;
+    z-index: -1;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container9
+{
+    position: relative;
+    height: 100%;
+    display: flex;
+    transform-style: preserve-3d;
+    z-index: -1;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container10
+{
+    position: relative;
+    height: 100%;
+    display: flex;
+    transform-style: preserve-3d;
+    z-index: -1;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container11
+{
+    position: relative;
+    height: 100%;
+    display: flex;
+    transform-style: preserve-3d;
+    z-index: -1;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#planet1
+{
+    position: absolute;
+    Top:40px;
+    Left:1070.85px;
+}
+
+#planet2
+{
+    position: absolute;
+    top: 120px;
+    right: 1050px;
+}
+
+#planet3
+{
+    position: absolute;
+    top:400px;
+    left: 1000px;
+}
+
+#planet4
+{
+    position: absolute;
+    top:250px;
+    left:260px;
+}
+
+#planet5
+{
+    position:absolute;
+    top:500px;
+    left:550px;
+}
+
+#planet6
+{
+    position: absolute;
+    top:70px;
+    right:1200px;
+}
+
+#planet7
+{
+    position: absolute;
+    top:490px;
+    right:1180px;
+}
+
+#planet8
+{
+    position: absolute;
+    top:70px;
+    left:600px;
+}
+
+#mainhead
+{
+    position: absolute;
+    color: white;
+    font-size:70px;
+    font-weight: 700;
+    top:8rem;
+    right: 22rem;
+    letter-spacing: -3px;
+    word-spacing: 0px;
+}
+
+#mainheadmq
+{
+    position: absolute;
+    color: white;
+    font-size:70px;
+    font-weight: 700;
+    top:8rem;
+    right: 22rem;
+    letter-spacing: -3px;
+    word-spacing: 0px;
+    display: none;
+}
+
+#head2
+{
+    position: absolute;
+    color: white;
+    top:25rem;
+    left:9rem;
+    letter-spacing: 0px;
+    word-spacing: -3px;
+}
+
+#head2mq
+{
+    position: absolute;
+    color: white;
+    top:25rem;
+    left:9rem;
+    letter-spacing: 0px;
+    word-spacing: -3px;
+    display: none;
+}
+
+button
+{
+    position: absolute;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
+    top:28rem;
+    left:33rem;
+    width: 170px;
+    height: 50px;
+    border: 1px solid black;
+    background-image: linear-gradient(to top left, #CD1013 ,purple 40% ,#2500FF );
+    backdrop-filter: blur(100px);
+    border-radius: 10px;
+}
+
+#nav-left
+{
+    position: absolute;
+    color: white;
+    left:7rem;
+    top:1rem;
+    font-size: 30px;
+}
+
+#nav-mid
+{
+    position: absolute;
+    display: flex;
+    gap:4rem;
+    color: white;
+    top:2.5rem;
+    left:28rem;
+}
+
+@media(max-width:1100px)
+{
+    #mainhead
+    {
+        display: none;
+    }
+    #mainheadmq
+    {
+        display: inline;
+        right: 8rem;
+        font-size:43px ;
+    }
+    #head2
+    {
+        display: none;
+    }
+    #head2mq
+    {
+        display: inline;
+        left:1rem;
+    }
+    #planet1
+    {
+        height: 12%;
+        width: 20%;
+        left:19rem;
+        top:6rem;
+    }
+    #planet2
+    {
+        height: 15%;
+        width: 25%;
+        left:-2rem;
+        top:20rem;
+    }
+    #planet3
+    {
+        height: 15%;
+        width: 25%;
+        left:18rem;
+        top:30rem;
+    }
+    #planet4
+    {
+        height: 15%;
+        width: 25%;
+        left: 20rem;
+        top:20rem;
+    }
+    #planet5
+    {
+        height: 15%;
+        width: 25%;
+        left:6rem;
+        top:33rem;
+    }
+    #planet6
+    {
+        height: 15%;
+        width: 25%;
+        top:10rem;
+        left:-3rem;
+    }
+    #planet7
+    {
+        height: 15%;
+        width: 25%;
+        left:-3rem;
+    }
+    #planet8
+    {
+        height: 15%;
+        width: 20%;
+        left:17rem;
+        top:12rem;
+    }
+    button
+    {
+        height: 7%;
+        width: 25%;
+        left:9rem;
+        top:32rem;
+        
+    }
+    #nav-left
+    {
+        font-size: 90%;
+        left:1rem;
+        top:2rem;
+    }
+    #nav-mid
+    {
+        left:1rem;
+        top:4rem;
+        gap:1rem;
+    }
+
+}
+
+
+#sunrise
+{
+    position:absolute;
+    top:-1000px;
+    right: -600px;
+    z-index: 0;
+}
+
+#sun
+{
+    position: absolute;
+    top:-990px;
+}
+
+#dotsun
+{
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    top:15rem;
+    left: 3rem;
+    
+}
+
+#textwhite
+{
+    position: absolute;
+    color: white;
+    top:22rem;
+    right: 26rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    word-spacing: -2px;
+}
+
+#textwhitemq
+{
+    position: absolute;
+    color: white;
+    top:22rem;
+    right: 26rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    word-spacing: -2px;
+    display: none;
+}
+
+.button1
+{
+    position: absolute;
+    border: 3px solid #370D44;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 100px;
+    top:28rem;
+    left: 3rem;
+    background-image: radial-gradient(ellipse at bottom right, #430E49,#370D44,#170B36,#100A33);
+}
+
+.rightbuttonside
+{
+    display: flex;
+    flex-direction:column;
+}
+
+#leftbuttonicon
+{
+    position: absolute;
+    left:1rem;
+    top:1.5rem;
+    height: 50px;
+    width: 50px;
+}
+
+.buttontextup
+{
+    position: absolute;
+    left:5rem;
+    font-size: 20px;
+    top:1rem;
+    color: white;
+    line-height: 1px;
+}
+
+.buttontextdown
+{
+    position: absolute;
+    top:2rem;
+    left:-22rem;
+    color: white;
+    font-size: 25px;
+}
+
+.button2
+{
+    position: absolute;
+    border: 3px solid #370D44;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 100px;
+    top:28rem;
+    left:17rem;
+    background-image: radial-gradient(ellipse at bottom right,#430E49,#370D44,#170B36,#100A33);
+}
+
+#rightbuttonicon
+{
+    position: absolute;
+    top:1rem;
+    left:2rem;
+}
+
+
+@media(max-width:1100px)
+{
+    #textwhite
+    {
+        display: none;
+    }
+    #textwhitemq
+    {
+        display:inline;
+        right:23rem;
+        top:20rem;
+        width: 40%;
+    }
+    #sun
+    {
+        left:-3rem;
+        width: 90%;
+        height: 80%;
+        top:-15rem;
+    }
+    #dotsun
+    {
+        left:1rem;
+    }
+    .button1
+    {
+        left:0rem;
+        width: 40%;
+    }
+    .button2
+    {
+        left:11rem;
+        width: 40%;
+    }
+    #leftbuttonicon
+    {
+        width: 20%;
+        height: 40%;
+    }
+    #rightbuttonicon
+    {
+        width: 10%;
+        height: 60%;
+    }
+    .buttontextup
+    {
+        font-size: 70%;
+    }
+    
+    #miles
+    {
+        font-size: 70%;
+        
+    }
+    #celcius
+    {
+        font-size: 70%;
+    }
+    .buttontextdown
+    {
+        left:-15rem;
+    }
+}
+
+
+#mercury
+{
+    position: absolute;
+    top:2rem;
+    left:-7rem;
+}
+
+#mercuryheading
+{
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    top:4rem;
+    left: 30rem;
+}
+
+.textwhite2
+{
+    position: absolute;
+    color: white;
+    top:11rem;
+    right: 2rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    word-spacing: -2px;
+}
+
+.textwhite2mq
+{
+    position: absolute;
+    color: white;
+    top:11rem;
+    right: 2rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    word-spacing: -2px;
+    display: none;
+}
+
+.button1b
+{
+    position: absolute;
+    border: 3px solid #370D44;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 130px;
+    top:16rem;
+    left:30rem;
+    background-image: radial-gradient(ellipse at bottom right, #430E49,#370D44,#170B36,#100A33);
+}
+
+#firstbuttoniconb
+{
+    position: absolute;
+    left:1.5rem;
+    top:1.5rem;
+    height: 60px;
+    width: 60px;
+}
+
+.rightbuttonsideb
+{
+    display:flex;
+    flex-direction:column;
+}
+
+#buttontextupb
+{
+    position: absolute;
+    left:7rem;
+    font-size: 20px;
+    top:2rem;
+    color: white;
+    line-height: 1px;
+}
+
+#buttontextdownb
+{
+    position: absolute;
+    top:3rem;
+    left:-26.5rem;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.button2b
+{
+    position: absolute;
+    border: 3px solid #370D44;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 130px;
+    top:16rem;
+    left:50rem;
+    background-image: radial-gradient(ellipse at bottom right, #430E49,#370D44,#170B36,#100A33);
+}
+
+#secondbuttoniconb
+{
+    position: absolute;
+    left:1.8rem;
+    top:1.5rem;
+}
+
+#rightbuttonsideb2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#buttontextupb2
+{
+    position: absolute;
+    left:6rem;
+    font-size: 15px;
+    top:1.5rem;
+    color: white;
+    line-height: 1px;
+}
+
+#buttontextdownb2
+{
+    position: absolute;
+    top:3rem;
+    left:-29.5rem;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.button3b
+{
+    position: absolute;
+    border: 3px solid #370D44;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 130px;
+    top:26rem;
+    left:30rem;
+    background-image: radial-gradient(ellipse at bottom right, #430E49,#370D44,#170B36,#100A33);
+}
+
+#thirdbuttoniconb
+{
+    position: absolute;
+    left:1.8rem;
+    top:1.5rem;
+}
+
+#rightbuttonsideb3
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#buttontextupb3
+{
+    position: absolute;
+    left:6rem;
+    font-size: 15px;
+    top:1.7rem;
+    color: white;
+    line-height: 1px;
+}
+
+#buttontextdownb3
+{
+    position: absolute;
+    top:2.8rem;
+    left:-29.5rem;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+@media(max-width:1100px)
+{
+    #mercury
+    {
+        width: 60%;
+        height: 70%;
+        left:17rem;
+    }
+    #mercuryheading
+    {
+        left:1rem;
+        font-size: 40px;
+    }
+    .textwhite2
+    {
+        display: none;
+    }
+    .textwhite2mq
+    {
+        display: inline;
+        right: 8rem;
+        top:7rem;
+    }
+    .button1b
+    {
+        left:1rem;
+        width: 45%;
+        height: 90px;
+    }
+    .button2b
+    {   
+        left:1rem;
+        top:23rem;
+        width: 45%;
+        height: 90px;
+    }
+    .button3b
+    {
+        left:1rem;
+        top:30rem;
+        width: 45%;
+        height: 90px;
+    }
+    #firstbuttoniconb
+    {
+        height: 40%;
+        width: 20%;
+    }
+    #secondbuttoniconb
+    {
+        height: 50%;
+        width: 15%;
+    }
+    #thirdbuttoniconb
+    {
+        height: 45%;
+        width: 15%;
+    }
+    #buttontextupb
+    {
+        font-size: 70%;
+        top:1rem;
+        left:5rem;
+    }
+    #buttontextupb2
+    {
+        font-size: 60%;
+        top:1rem;
+        left:5rem;
+    }
+    #buttontextupb3
+    {
+        font-size: 60%;
+        top:1rem;
+        left:5rem;
+    }
+    #buttontextdownb
+    {
+        font-size: 99%;
+        left:-15rem;
+        top:2rem;
+    }
+    #buttontextdownb2
+    {
+        font-size: 99%;
+        left:-15rem;
+        top:2rem;
+    }
+    #buttontextdownb3
+    {
+        font-size: 99%;
+        left:-15rem;
+        top:2rem;
+    }
+}
+
+#venus
+{
+    position: absolute;
+    top:1rem;
+    left: 24rem;
+}
+
+#venusheading
+{
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    top:3rem;
+    left: 2rem;
+}
+
+.textwhitevenus
+{
+    position: absolute;
+    color: white;
+    top:10rem;
+    left: -5rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    word-spacing: -2px;
+}
+
+.textwhitevenusmq
+{
+    position: absolute;
+    color: white;
+    top:10rem;
+    left: -5rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    word-spacing: -2px;
+    display: none;
+}
+
+.button1venus
+{
+    position: absolute;
+    border: 3px solid #370D44;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 130px;
+    top:16rem;
+    left:2rem;
+    background-image: radial-gradient(ellipse at bottom right, #430E49,#370D44,#170B36,#100A33);
+}
+
+#firstbuttoniconvenus
+{
+    position: absolute;
+    left:1.5rem;
+    top:2rem;
+}
+
+.rightbuttonsidebutton1venus
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#buttontextupvenusbutton1
+{
+    position: absolute;
+    left:7rem;
+    font-size: 17px;
+    top:1.7rem;
+    color: white;
+    line-height: 1px;
+}
+
+#buttontextdownvenusbutton1
+{
+    position: absolute;
+    top:2.8rem;
+    left:-29rem;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.button2venus
+{
+    position: absolute;
+    border: 3px solid #370D44;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 130px;
+    top:26rem;
+    left:2rem;
+    background-image: radial-gradient(ellipse at bottom right, #430E49,#370D44,#170B36,#100A33);
+}
+
+#secondbuttoniconvenus
+{
+    position: absolute;
+    left:2.5rem;
+    top:2rem;
+}
+
+.rightbuttonsidebutton2venus
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#buttontextupvenusbutton2
+{
+    position: absolute;
+    left:7rem;
+    font-size: 17px;
+    top:1.7rem;
+    color: white;
+    line-height: 1px;
+}
+
+#buttontextdownvenusbutton2
+{
+    position: absolute;
+    top:2.8rem;
+    left:-29rem;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+@media(max-width:1100px)
+{
+    #venus
+    {
+        left:7rem;
+    }
+    #venusheading
+    {
+        font-size: 50px;
+        top:1rem;
+        left: 1rem;
+    }
+    .textwhitevenus
+    {
+        display: none;
+    }
+    .textwhitevenusmq
+    {
+        display: inline;
+        top:5rem;
+        left:-6rem;
+    }
+    .button1venus
+    {
+        width:40%;
+        height: 100px;
+    }
+    .button2venus
+    {
+        width:40%;
+        height: 100px;
+        top:23rem;
+    }
+    #firstbuttoniconvenus
+    {
+        height: 40%;
+        width: 20%;
+    }
+    #secondbuttoniconvenus
+    {
+        height: 60%;
+        width: 15%;
+        top:1rem;
+        left: 2rem;
+    }
+    #buttontextupvenusbutton1
+    {
+        font-size: 15px;
+        left:5rem;
+        top:1rem;
+    }
+    #buttontextupvenusbutton2
+    {
+        font-size: 15px;
+        left:5rem;
+        top:1rem;
+    }
+    #buttontextdownvenusbutton1
+    {
+        font-size: 20px;
+        left:-23rem;
+        top:2rem;
+    }
+    #buttontextdownvenusbutton2
+    {
+        font-size: 20px;
+        left:-23.5rem;
+        top:2rem;
+    }
+}
+
+#earthshadow
+{
+    position: absolute;
+    top:19rem;
+    left:4rem;
+}
+
+#earth
+{
+    position: absolute;
+    top:15.5rem;
+    left:9rem;
+}
+
+#button1earth
+{
+    position: absolute;
+    border: 3px solid #370D44;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 130px;
+    top:3rem;
+    left:55rem;
+    background-image: radial-gradient(ellipse at bottom right, #430E49,#370D44,#170B36,#100A33);
+}
+
+#firstbuttoniconearth
+{
+    position: absolute;
+    left:1.5rem;
+    top:2rem;
+}
+
+#buttontextupearthbutton1
+{
+    position: absolute;
+    left:7rem;
+    font-size: 17px;
+    top:1.7rem;
+    color: white;
+    line-height: 1px;
+}
+
+#buttontextdownearthbutton1
+{
+    position: absolute;
+    top:2.8rem;
+    left:-29rem;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#earthhead
+{
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    top:2rem;
+    left: 5rem;
+}
+
+#textwhite1earth
+{
+    position: absolute;
+    color: white;
+    top:7.5rem;
+    left: -2rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    word-spacing: -2px;
+}
+
+#textwhite1earthmq
+{
+    position: absolute;
+    color: white;
+    top:7.5rem;
+    left: -2rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    word-spacing: -2px;
+    display: none;
+}
+
+#earthhead2
+{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    top:11rem;
+    left: 40rem;
+}
+
+#textwhite2earth
+{
+    position: absolute;
+    color: white;
+    top:14rem;
+    left: 13.5rem;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    word-spacing: -3px;
+}
+
+#textwhite2earthmq
+{
+    position: absolute;
+    color: white;
+    top:14rem;
+    left: 13.5rem;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    word-spacing: -3px;
+    display: none;
+}
+
+#arrow
+{
+    position: absolute;
+    top:11rem;
+    left:53rem;
+}
+
+#rocket
+{
+    position: absolute;
+    top:20rem;
+}
+
+@media(max-width:1100px)
+{
+    #earth
+    {
+        left: -35rem;
+    }
+    #earthshadow
+    {
+        left:-40rem;
+    }
+    #earthhead
+    {
+        left:1rem;
+        top:1rem;
+        font-size: 50px;
+    }
+    #textwhite1earth
+    {
+        display: none;
+    }
+    #textwhite1earthmq
+    {
+        display: inline;
+        left:-6rem;
+        top:5rem;
+    }
+    #textwhite2earth
+    {
+        display: none;
+    }
+    #textwhite2earthmq
+    {
+        display: inline;
+        left:-2rem;
+        top:17rem;
+    }
+    #earthhead2
+    {
+        left:2rem;
+        top:15rem;
+    }
+    #rocket
+    {
+        top:25rem;
+        left: -2rem;
+    }
+    #arrow
+    {
+        height: 10%;
+        width: 15%;
+        left:15rem;
+        top:15rem;
+    }
+    #button1earth
+    {
+        left:5rem;
+        width: 40%;
+        height: 90px;
+        top:27rem;
+    }
+    #firstbuttoniconearth
+    {
+        width: 20%;
+        height: 40%;
+        top:2rem;
+    }
+    #buttontextupearthbutton1
+    {
+        font-size: 15px;
+        left:5rem;
+        top:1rem;
+    }
+    #buttontextdownearthbutton1
+    {
+        font-size: 20px;
+        left:-23rem;
+        top:1.7rem;
+    }
+}
+
+#marsimg
+{
+    position: absolute;
+    top:14rem;
+    right:45rem;
+}
+
+#marsarrow
+{
+    position:absolute;
+    top:18rem;
+    left:30rem;
+}
+
+#headingmars1
+{
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    top:1.5rem;
+    left: 5rem;
+}
+
+#headingmars2
+{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    top:20rem;
+    left: 35rem;
+}
+
+#textwhitemars1
+{
+    position: absolute;
+    color: white;
+    top:7.5rem;
+    left: -2rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    word-spacing: -2px;
+}
+
+#textwhitemars2
+{
+    position: absolute;
+    color: white;
+    top:23rem;
+    left: 28rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    word-spacing: -2px;
+}
+
+#button1mars
+{
+    position: absolute;
+    border: 3px solid #370D44;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 130px;
+    top:3rem;
+    left:57rem;
+    background-image: radial-gradient(ellipse at bottom right, #430E49,#370D44,#170B36,#100A33);
+}
+
+#button2mars
+{
+    position: absolute;
+    border: 3px solid #370D44;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 130px;
+    top:14rem;
+    left:57rem;
+    background-image: radial-gradient(ellipse at bottom right, #430E49,#370D44,#170B36,#100A33);
+}
+
+#button3mars
+{
+    position: absolute;
+    border: 3px solid #370D44;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 130px;
+    top:25rem;
+    left:57rem;
+    background-image: radial-gradient(ellipse at bottom right, #430E49,#370D44,#170B36,#100A33);
+}
+
+#buttontextdownmarsbutton1
+{
+    position: absolute;
+    top:2.8rem;
+    left:-33rem;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#jupitershadow
+{
+    position: absolute;
+    top:-12rem;
+    left:42rem;
+}
+
+#jupiter
+{
+    position: absolute;
+    top:-20rem;
+    left:33rem;
+}
+
+#headingjupiter
+{
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    top:3rem;
+    left: 5rem;   
+}
+
+#textwhitejupiter
+{
+    position: absolute;
+    color: white;
+    top:9rem;
+    left: -2rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    word-spacing: -2px;
+}
+
+#button1jupiter
+{
+    position: absolute;
+    border: 3px solid #370D44;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 130px;
+    top:15rem;
+    left:5rem;
+    background-image: radial-gradient(ellipse at bottom right, #430E49,#370D44,#170B36,#100A33);
+}
+
+#button2jupiter
+{
+    position: absolute;
+    border: 3px solid #370D44;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 130px;
+    top:25rem;
+    left:5rem;
+    background-image: radial-gradient(ellipse at bottom right, #430E49,#370D44,#170B36,#100A33);
+}
+
+#saturn
+{
+    position: absolute;
+    top:-5rem;
+    left:-15rem;
+}
+
+#headingsaturn
+{
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    top:3rem;
+    left: 58rem;    
+}
+
+#textwhitesaturn
+{
+    position: absolute;
+    color: white;
+    top:9rem;
+    left: 24rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    word-spacing: -2px;    
+}
+
+#button1saturn
+{
+    position: absolute;
+    border: 3px solid #370D44;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 130px;
+    top:15rem;
+    left:55rem;
+    background-image: radial-gradient(ellipse at bottom right, #430E49,#370D44,#170B36,#100A33);
+}
+
+#button2saturn
+{
+    position: absolute;
+    border: 3px solid #370D44;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 130px;
+    top:25rem;
+    left:55rem;
+    background-image: radial-gradient(ellipse at bottom right, #430E49,#370D44,#170B36,#100A33);
+}
+
+#uranus
+{
+    position: absolute;
+    top:13rem;
+    left:5rem;
+}
+
+#headinguranus
+{
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    top:1.5rem;
+    left: 5rem;    
+}
+
+#textwhiteuranus
+{
+    position: absolute;
+    color: white;
+    top:7rem;
+    left: -2rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    word-spacing: -2px;  
+}
+
+#button1uranus
+{
+    position: absolute;
+    border: 3px solid #370D44;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 130px;
+    top:3rem;
+    left:37rem;
+    background-image: radial-gradient(ellipse at bottom right, #430E49,#370D44,#170B36,#100A33);
+}
+
+#button2uranus
+{
+    position: absolute;
+    border: 3px solid #370D44;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 130px;
+    top:3rem;
+    left:57rem;
+    background-image: radial-gradient(ellipse at bottom right, #430E49,#370D44,#170B36,#100A33);
+}
+
+#neptune
+{
+    position: absolute;
+    top:-4rem;
+    left:-37rem;
+}
+
+#headingneptune
+{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    top:1.5rem;
+    left: 29rem; 
+}
+
+#textwhiteneptune
+{
+    position: absolute;
+    color: white;
+    top:6rem;
+    left: 2rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    word-spacing: -2px;  
+}
+
+#button1neptune
+{
+    position: absolute;
+    border: 3px solid #370D44;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 130px;
+    top:9rem;
+    left:12rem;
+    background-image: radial-gradient(ellipse at bottom right, #430E49,#370D44,#170B36,#100A33);
+}
+
+#button2neptune
+{
+    position: absolute;
+    border: 3px solid #370D44;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 130px;
+    top:9rem;
+    left:32rem;
+    background-image: radial-gradient(ellipse at bottom right, #430E49,#370D44,#170B36,#100A33);
+}
+
+#neptune2
+{
+    position: absolute;
+    top:-41.2rem;
+    left:-37rem;
+}
+
+#boxfooter
+{
+    position: absolute;
+    border: 1px solid black;
+    background-color: #1E1E1E;
+    height: 400px;
+    width:1200px;
+    top:6rem;
+    left:2rem;
+    border-radius: 3rem;
+}
+
+#footerhead
+{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top:1.5rem;
+    left: 20rem; 
+}
+
+#textwhitefooter
+{
+    position: absolute;
+    color: white;
+    top:6rem;
+    left: 5rem;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    word-spacing: -2px; 
+}
+
+#secondbuttonfooter
+{
+    position: absolute;
+    border: 0px solid black;
+    height: 45px;
+    width: 400px;
+    background-color: white;
+    top:12rem;
+    left:23rem;
+    border-radius: 40px;
+}
+
+#textinbutton2
+{
+    position: absolute;
+    top:0.8rem;
+    left:1.5rem;
+    color: grey;
+}
+
+.nav-lef
+{
+
+}
+
+
+
+
